@@ -1,0 +1,48 @@
+{
+    "version": "1.100000",
+    "account_id": "661276614102",
+    "region": "ap-northeast-2",
+    "vpc_id": "vpc-0577b0ba21086a6d7",
+    "query_timestamp": "2022-04-04T04:26:29Z",
+    "query_name": "www.google.com.",
+    "query_type": "AAAA",
+    "query_class": "IN",
+    "rcode": "NOERROR",
+    "answers": [
+        {
+            "Rdata": "2404:6800:4004:81c::2004",
+            "Type": "AAAA",
+            "Class": "IN"
+        }
+    ],
+    "srcaddr": "10.0.0.10",
+    "srcport": "43085",
+    "transport": "UDP",
+    "srcids": {
+        "instance": "i-0147713eb40402025"
+    }
+}
+
+
+
+{
+    "version": "1.100000",
+    "account_id": "661276614102",
+    "region": "ap-northeast-2",
+    "vpc_id": "vpc-0577b0ba21086a6d7",
+    "query_timestamp": "2022-04-04T04:22:54Z",
+    "query_name": "www.amazon.com.",
+    "query_type": "AAAA",
+    "query_class": "IN",
+    "rcode": "NOERROR",
+    "answers": [],
+    "srcaddr": "10.0.0.10",
+    "srcport": "39450",
+    "transport": "UDP",
+    "srcids": {
+        "instance": "i-0147713eb40402025"
+    },
+    "firewall_rule_action": "BLOCK",
+    "firewall_rule_group_id": "rslvr-frg-fd61501840d74452",
+    "firewall_domain_list_id": "rslvr-fdl-e9599398842049f1"
+}
