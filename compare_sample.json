@@ -1,3 +1,5 @@
+//allow dns query log 
+
 {
     "version": "1.100000",
     "account_id": "661276614102",
@@ -24,6 +26,7 @@
 }
 
 
+//deny dns query log 
 
 {
     "version": "1.100000",
